@@ -1,0 +1,213 @@
+.addresses {
+
+  .title {
+
+
+    &__head {
+      font-weight: 800;
+      font-size: 5.3rem;
+      line-height: 120%;
+
+      @media (max-width: $mobile-width) {
+        font-size: 6rem;
+      }
+    }
+
+
+  }
+
+  &__wrapper {
+    padding-top: 9rem;
+    padding-bottom: 19.4rem;
+
+    @media (max-width: $mobile-width) {
+      padding-top: 8rem;
+      padding-bottom: 0;
+    }
+  }
+
+  &__blocks {
+
+
+    display: flex;
+    justify-content: space-between;
+
+
+    @media (max-width: $mobile-width) {
+      width: 100%;
+      margin: 0;
+      flex-direction: column;
+
+    }
+
+
+
+  }
+
+  &__block-wrapper {
+
+
+    @media (max-width: $mobile-width) {
+      margin: 0;
+      padding: 0;
+      
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .border {
+    margin-top: 7.9rem;
+    width: 37.3rem;
+    margin-bottom: 7.7rem;
+
+    @media (max-width: $mobile-width) {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  &__block {
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07);
+    max-width: 44.7rem;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1.3rem;
+    padding-top: 5rem;
+
+    margin-bottom: 3rem;
+
+    @media (max-width: $mobile-width) {
+      margin: 0;
+      max-width: 100%;
+      padding-top: 7.3rem;
+
+
+      margin-bottom: 8rem;
+      padding-bottom: 3.9rem;
+    }
+
+    address,
+    a {
+      font-size: 1.8rem;
+      line-height: 120%;
+      font-style: normal;
+      margin-bottom: 1rem;
+      display: inline-flex;
+      justify-content: center;
+      width: 90%;
+      margin-bottom: 1.5rem;
+
+      @media (max-width: $mobile-width) {
+        font-size: 3rem;
+        margin-bottom: 2.7rem;
+      }
+    }
+
+    a {
+      margin-bottom: 4.7rem;
+      display: inline-flex;
+
+      @media (max-width: $mobile-width) {
+        margin-bottom: 5.7rem;
+      }
+
+    }
+
+
+  }
+
+  &__logo {
+
+    margin: 0 auto 6.7rem;
+
+    &--brums {
+      width: 13.8rem;
+      height: 5.0rem;
+      margin-bottom: 6.2rem;
+
+      @media (max-width: $mobile-width) {
+        width: 23.2rem;
+        height: 8.4rem;
+        margin-bottom: 7.2rem;
+      }
+    }
+
+    &--primigi {
+      width: 12.2rem;
+      height: 5.7rem;
+      margin-top: 0.6rem;
+
+      @media (max-width: $mobile-width) {
+        width: 20.4rem;
+        height: 9.6rem;
+        margin: 0 auto 8.5rem;
+      }
+
+    }
+
+    &--bobolio {
+      width: 20.3rem;
+      height: 4.3rem;
+      margin-bottom: 7.8rem;
+      @media (max-width: $mobile-width) {
+        width: 34.2rem;
+        height: 7.2rem;
+        margin-bottom: 8.5rem;
+      }
+    }
+
+    &--marines {
+      margin-top: 0.6rem;
+      width: 16.0rem;
+      height: 4.9rem;
+      @media (max-width: $mobile-width) {
+        width: 26.8rem;
+        height: 8.2rem;
+        margin-bottom: 8.3rem;
+
+      }
+    }
+  }
+
+  img {
+
+    object-fit: contain;
+    margin: auto;
+  }
+
+  &__title {
+    font-family: 'Futura-PT', sans-serif;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+
+    @media (max-width: $mobile-width) {
+      font-size: 3.6rem;
+      margin-bottom: 2.7rem;
+    }
+  }
+
+
+
+  &__top {
+    margin-top: 7rem;
+
+    @media (max-width: $mobile-width) {
+      margin-top: 0
+    }
+  }
+
+  &__block-wrapper:nth-child(3) {
+    .addresses__block {
+      padding-bottom: 2.3rem;
+      margin-bottom: 0;
+    }
+  }
+
+}

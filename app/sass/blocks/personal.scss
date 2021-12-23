@@ -1,0 +1,103 @@
+.personal {
+  &__wrapper {
+    padding-bottom: 16.0rem;
+
+    @media (max-width: $mobile-width) {}
+  }
+
+  ol {
+    list-style: none;
+    counter-reset: li;
+
+    @media (max-width: $mobile-width) {}
+  }
+
+  li:before {
+    counter-increment: li;
+    content: counters(li, ".") ". ";
+
+    @media (max-width: $mobile-width) {}
+  }
+
+  .title {
+    margin: 10rem 0 4.0rem;
+
+    @media (max-width: $mobile-width) {
+      margin: 4.4rem 0 8rem;
+    }
+  }
+
+  ol {
+
+
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+    color: $sub-title;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+
+    @media (max-width: $mobile-width) {
+      font-weight: 500;
+      font-size: 3.2rem;
+      line-height: 4rem;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 6rem;
+      ol {
+        padding-top: 1.0rem;
+
+        @media (max-width: $mobile-width) {
+          font-weight: 400;
+          font-size: 3.2rem;
+
+          line-height: 4.6rem;
+          padding-left: 0;
+          padding-top: 4.5rem;
+        }
+
+        li {
+          margin-bottom: 0;
+          text-transform: initial;
+          color: $color;
+
+          @media (max-width: $mobile-width) {}
+        }
+      }
+    }
+  }
+
+  span {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+    color: $sub-title;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    display: flex;
+
+    @media (max-width: $mobile-width) {
+      font-weight: 500;
+      font-size: 3.2rem;
+      line-height: 4rem;
+    }
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+    color: $color;
+    padding-bottom: 1.5rem;
+
+    @media (max-width: $mobile-width) {
+      font-weight: 400;
+      font-size: 3.2rem;
+
+      line-height: 4.6rem;
+    }
+  }
+
+}

@@ -1,0 +1,73 @@
+.discount {
+
+
+
+  &__block {
+    width: 15.4rem;
+    height: 15.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: $white;
+    align-items: center;
+    
+    // margin: 1.0rem .9rem;
+
+    @media (max-width: $mobile-width) {
+      width: 32.4rem;
+      height: 30.8rem;
+      margin-bottom: 3.6rem;
+     
+    }
+    
+  }
+
+  &__top {
+    font-family: 'Futura-PT', sans-serif;
+    font-weight: 800;
+    font-size: 5.5rem;
+    line-height: 120%;
+    color: $sub-title;
+    margin-bottom: 0rem;
+    margin-top: -1.1rem;
+    margin-left: 1.5rem;
+
+    @media (max-width: $mobile-width) {
+      font-size: 11rem;
+    }
+    sup {
+      top: -1.3em;
+      left: -1.2rem;
+      font-size: 1.9rem;
+      @media (max-width: $mobile-width) {
+        font-size: 3.8rem;
+      }
+    }
+  }
+
+  &__bottom {
+    font-family: "Euclid", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    @media (max-width: $mobile-width) {
+      font-size: 3.6rem;
+      margin-bottom: 1rem;
+    }
+    span {
+      font-weight: 700;
+      @media (max-width: $mobile-width) {
+      
+      }
+    }
+  }
+
+  &__block--red {
+
+    div, sup, span {
+      color: $white;
+    }
+    background: $sub-title;
+  }
+
+}

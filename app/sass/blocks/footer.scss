@@ -1,0 +1,98 @@
+.footer {
+  background: $c-nav-link;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $white;
+
+    
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 130%;
+
+    padding: 3.3rem 0 2.9rem 0;
+    flex-wrap: wrap;
+
+    a {
+      margin-left: 1rem;
+      @media (max-width: $mobile-width) {
+        margin-left: 0;
+      }
+    }
+
+    @media (max-width: $mobile-width) {
+      flex-direction: column;
+      padding: 7.2rem 0 6.4rem;
+    }
+  }
+
+  &__logo {
+    width: 22.6rem;
+    @media (max-width: $mobile-width) {
+      margin-bottom: 5.2rem;
+      width: 33.6rem;
+      height: 4.6rem;
+      
+    }
+  }
+
+  .personal {
+    @media (max-width: $mobile-width) {
+      margin-bottom: 4rem;
+      font-size: 3rem;
+      order: 3;
+    }
+  }
+
+  .phone {
+    @media (max-width: $mobile-width) {
+      margin-bottom: 6.2rem;
+      font-size: 3rem;
+      order: 1;
+    }
+  }
+
+  .mail {
+    @media (max-width: $mobile-width) {
+
+      order: 2;
+      margin-bottom: 5rem;
+      font-size: 3rem;
+    }
+  }
+
+  .developed {
+    display: flex;
+    align-items: center;
+
+    color: #A4A7B1;
+    font-family: 'Circe';
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    margin-left: 1.2rem;
+
+    @media (max-width: $mobile-width) {
+      order: 4;
+
+    }
+    a {
+      margin-top: 1.2rem;
+      margin-left: 1.2rem;
+      @media (max-width: $mobile-width) {
+        margin-top: 0;
+        margin-left: 2.1rem;
+        width: 28.8rem;
+        height: 7rem; 
+      }
+    }
+
+    span {
+      @media (max-width: $mobile-width) {
+      font-size: 3rem;
+      }
+
+    }
+  }
+}

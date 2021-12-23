@@ -1,0 +1,617 @@
+.brand {
+  &__wrapper {
+    padding: 11rem 0 20rem;
+
+    @media (max-width: $mobile-width) {
+      padding-top: 9.6rem;
+      padding-bottom: 8rem;
+    }
+
+    .brand__card:nth-child(even) {
+      flex-direction: row-reverse;
+
+      @media (max-width: $mobile-width) {
+        flex-direction: column;
+      }
+
+
+
+      .brand__block:nth-child(even) {
+
+        width: 45%;
+
+        @media (max-width: $mobile-width) {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+
+  }
+
+  .title {
+    margin-bottom: 3.2rem;
+    margin-top: 0;
+
+    @media (max-width: $mobile-width) {
+      margin: 0 0 4.1rem 0;
+      width: 80%;
+    }
+
+    &__head {
+      font-feature-settings: 'cpsp'on, 'zero'on, 'ordn'on, 'salt'on, 'ss01'on, 'ss02'on, 'ss03'on, 'ss04'on, 'mgrk'on, 'numr'on, 'dnom'on;
+
+
+      @media (max-width: $mobile-width) {
+
+        font-weight: 700;
+        font-size: 6rem;
+        line-height: 120%;
+      }
+    }
+
+    &__sub {
+      margin-bottom: 1rem;
+      margin-top: -0.5rem;
+
+      @media (max-width: $mobile-width) {
+        margin-bottom: 2rem;
+        margin-top: -0.8rem;
+      }
+    }
+  }
+
+  &__card {
+    position: relative;
+    padding-bottom: 24.2rem;
+
+
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      width: 56.7rem;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 1.8rem;
+      line-height: 2.3rem;
+      margin-bottom: 2.1rem;
+
+      @media (max-width: $mobile-width) {
+        width: 99%;
+        font-weight: 300;
+        font-size: 3rem;
+        line-height: 3.8rem;
+
+        margin-bottom: 4rem;
+      }
+    }
+
+    @media (max-width: $mobile-width) {
+      flex-direction: column;
+      position: relative;
+    }
+
+    @media (max-width: $mobile-width) {
+      .position-mobile {
+        position: absolute;
+        bottom: 0;
+        bottom: 2.6rem;
+      }
+    }
+
+    &.brand__marines {
+
+      .brand__img {
+        margin-bottom: -3.5rem;
+      }
+
+      .brand__logo {
+        width: 5.2rem;
+        height: 5.0rem;
+        margin-top: 6rem;
+
+        @media (max-width: $mobile-width) {
+          margin-top: 0;
+
+          svg {
+            width: 9.4rem;
+            height: 9rem;
+          }
+        }
+
+      }
+    }
+
+    &.brand__brums {
+      padding-bottom: 18.8rem;
+
+      @media (max-width: $mobile-width) {
+        padding-bottom: 2.1rem;
+      }
+
+      p {
+        @media (max-width: $mobile-width) {
+
+          margin-bottom: 2.3rem;
+        }
+      }
+
+      .brand__img {
+
+
+        @media (max-width: $mobile-width) {
+
+          filter: drop-shadow(0px 54px 44px rgba(0, 0, 0, 0.07));
+          border-radius: 8.6rem 1rem 1rem 1rem;
+          width: 68.436rem;
+          height: 64.852rem;
+          margin: 0;
+
+          img {
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    &.brand__primigi {
+      padding-bottom: 23.3rem;
+
+      @media (max-width: $mobile-width) {
+        padding-bottom: 5rem;
+      }
+
+      .brand__img {
+
+        width: 68.5rem;
+        height: 62.9rem;
+
+        @media (max-width: $mobile-width) {
+          width: 68.2rem;
+          height: 68.8rem;
+        }
+
+        img {
+          object-position: 0;
+          height: 100%;
+
+          @media (max-width: $mobile-width) {}
+        }
+
+      }
+
+      .brand__shadow {
+        right: 0;
+      }
+
+      .title {
+        // margin-top: 17rem;
+        margin-bottom: 2.7rem;
+
+        @media (max-width: $mobile-width) {
+          margin-top: 10.3rem;
+          margin-bottom: 4.1rem;
+
+
+        }
+      }
+
+      p {
+        width: 63.8rem;
+
+        @media (max-width: $mobile-width) {
+          width: 70rem;
+          margin-bottom: 2.3rem;
+        }
+      }
+
+      .brand__logo {
+        width: 10.4rem;
+        height: 4.9rem;
+
+        @media (max-width: $mobile-width) {
+          width: 15.706rem;
+          height: 7.4rem;
+
+          img {
+            top: 14rem;
+            right: 0.4rem;
+            width: 15.706rem;
+            height: 7.4rem;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+
+    &.brand__boboli {
+      .brand__img {
+        width: 63.6rem;
+        height: 46.1rem;
+
+        @media (max-width: $mobile-width) {
+          width: 68.4rem;
+          height: 48.88rem;
+        }
+
+
+        img {
+          object-position: 0;
+          height: 100%;
+        }
+      }
+
+      .title {
+        margin-top: 1.5rem;
+
+        @media (max-width: $mobile-width) {
+          margin: 2.6rem 0 3.1rem 0;
+
+          &__sub {}
+        }
+      }
+
+      p {
+        width: 69rem;
+      }
+
+      .brand__logo {
+        width: 18.3rem;
+        height: 2.7rem;
+
+        @media (max-width: $mobile-width) {}
+
+        svg {
+
+          width: 18.3rem;
+          height: 2.7rem;
+
+
+          @media (max-width: $mobile-width) {
+            max-width: 100%;
+            top: 11rem;
+            width: 15.1rem;
+            height: 3.2rem;
+          }
+        }
+      }
+
+
+
+    }
+
+    &.brand__dpam {}
+  }
+
+  &__block {
+    width: 49%;
+    position: relative;
+
+    @media (max-width: $mobile-width) {
+      width: 100%;
+      position: static;
+    }
+  }
+
+  &__link {
+    font-weight: 600;
+    display: flex;
+    color: $sub-title;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    margin-top: -0.3rem;
+    margin-bottom: 2.8rem;
+
+    @media (max-width: $mobile-width) {
+
+      font-weight: 300;
+      font-size: 3rem;
+      line-height: 3.8rem;
+    }
+  }
+
+  &__social {
+    width: 2.4rem;
+    height: 2.4rem;
+    background: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.997 8.33177C9.97722 8.33177 8.32888 9.98013 8.32888 12C8.32888 14.0199 9.97722 15.6682 11.997 15.6682C14.0169 15.6682 15.6652 14.0199 15.6652 12C15.6652 9.98013 14.0169 8.33177 11.997 8.33177ZM22.9988 12C22.9988 10.481 23.0125 8.97571 22.9272 7.45943C22.8419 5.69824 22.4402 4.13519 21.1523 2.84732C19.8617 1.55669 18.3014 1.15767 16.5403 1.07237C15.0213 0.987059 13.516 1.00082 11.9998 1.00082C10.4808 1.00082 8.97556 0.987059 7.45931 1.07237C5.69815 1.15767 4.13513 1.55945 2.84728 2.84732C1.55668 4.13794 1.15767 5.69824 1.07237 7.45943C0.987059 8.97846 1.00082 10.4837 1.00082 12C1.00082 13.5163 0.987059 15.0243 1.07237 16.5406C1.15767 18.3018 1.55944 19.8648 2.84728 21.1527C4.13788 22.4433 5.69815 22.8423 7.45931 22.9276C8.97831 23.0129 10.4835 22.9992 11.9998 22.9992C13.5188 22.9992 15.024 23.0129 16.5403 22.9276C18.3014 22.8423 19.8645 22.4406 21.1523 21.1527C22.4429 19.8621 22.8419 18.3018 22.9272 16.5406C23.0153 15.0243 22.9988 13.519 22.9988 12ZM11.997 17.6441C8.87374 17.6441 6.35309 15.1234 6.35309 12C6.35309 8.87664 8.87374 6.35594 11.997 6.35594C15.1203 6.35594 17.641 8.87664 17.641 12C17.641 15.1234 15.1203 17.6441 11.997 17.6441ZM17.8722 7.44292C17.1429 7.44292 16.554 6.85402 16.554 6.12478C16.554 5.39554 17.1429 4.80664 17.8722 4.80664C18.6014 4.80664 19.1903 5.39554 19.1903 6.12478C19.1905 6.29794 19.1565 6.46945 19.0904 6.62947C19.0242 6.78949 18.9271 6.93489 18.8047 7.05733C18.6822 7.17978 18.5369 7.27686 18.3768 7.34303C18.2168 7.40919 18.0453 7.44314 17.8722 7.44292Z' fill='%23DA251E'/%3E%3C/svg%3E%0A") left no-repeat;
+    display: flex;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 120%;
+    padding-left: 3.0rem;
+    background-size: 5rem;
+    align-items: flex-end;
+    background-size: 2rem;
+
+    @media (max-width: $mobile-width) {
+      margin-bottom: 8rem;
+      width: 4.8rem;
+      height: 4.8rem;
+      background: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.997 8.33177C9.97722 8.33177 8.32888 9.98014 8.32888 12C8.32888 14.0199 9.97722 15.6682 11.997 15.6682C14.0169 15.6682 15.6652 14.0199 15.6652 12C15.6652 9.98014 14.0169 8.33177 11.997 8.33177ZM22.9988 12C22.9988 10.481 23.0125 8.97571 22.9272 7.45943C22.8419 5.69824 22.4402 4.13519 21.1523 2.84732C19.8617 1.55669 18.3014 1.15767 16.5403 1.07237C15.0213 0.987059 13.516 1.00082 11.9998 1.00082C10.4808 1.00082 8.97556 0.987059 7.45931 1.07237C5.69816 1.15767 4.13513 1.55945 2.84728 2.84732C1.55668 4.13794 1.15767 5.69824 1.07237 7.45943C0.987059 8.97846 1.00082 10.4837 1.00082 12C1.00082 13.5163 0.987059 15.0243 1.07237 16.5406C1.15767 18.3018 1.55944 19.8648 2.84728 21.1527C4.13788 22.4433 5.69816 22.8423 7.45931 22.9276C8.97831 23.0129 10.4835 22.9992 11.9998 22.9992C13.5188 22.9992 15.024 23.0129 16.5403 22.9276C18.3014 22.8423 19.8645 22.4406 21.1523 21.1527C22.4429 19.8621 22.8419 18.3018 22.9272 16.5406C23.0153 15.0243 22.9988 13.519 22.9988 12V12ZM11.997 17.6441C8.87374 17.6441 6.35309 15.1234 6.35309 12C6.35309 8.87664 8.87374 6.35594 11.997 6.35594C15.1203 6.35594 17.641 8.87664 17.641 12C17.641 15.1234 15.1203 17.6441 11.997 17.6441ZM17.8722 7.44292C17.1429 7.44292 16.554 6.85402 16.554 6.12478C16.554 5.39554 17.1429 4.80664 17.8722 4.80664C18.6014 4.80664 19.1903 5.39554 19.1903 6.12478C19.1905 6.29794 19.1565 6.46945 19.0904 6.62947C19.0242 6.78949 18.9271 6.93489 18.8047 7.05733C18.6822 7.17978 18.5369 7.27686 18.3768 7.34303C18.2168 7.40919 18.0453 7.44314 17.8722 7.44292V7.44292Z' fill='%23DA251E'/%3E%3C/svg%3E%0A") left no-repeat;
+      background-size: 5rem;
+      font-size: 3.2rem;
+      line-height: 120%;
+      padding-left: 6.2rem;
+      margin-top: 4rem;
+    }
+  }
+
+  &__img {
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07));
+    border-radius: 8rem 1rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+
+    img {
+      object-position: 0 -1.1rem;
+    }
+
+    @media (max-width: $mobile-width) {
+
+      filter: drop-shadow(0px 54px 44px rgba(0, 0, 0, 0.07));
+    }
+  }
+
+  &__shadow {
+    position: absolute;
+    font-family: 'Futura-PT', sans-serif;
+    font-weight: bold;
+    font-size: 6.1rem;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #E9E9E9;
+    top: -6.8rem;
+    font-feature-settings: 'cpsp'on, 'zero'on, 'ordn'on, 'salt'on, 'ss01'on, 'ss02'on, 'ss03'on, 'ss04'on, 'mgrk'on, 'numr'on, 'dnom'on;
+
+    @media (max-width: $mobile-width) {
+      display: none;
+    }
+  }
+
+  &__logo {
+    display: flex;
+
+    svg {
+      display: flex;
+      min-width: 5.2rem;
+      margin-right: 5.5rem;
+    }
+
+    &--top {
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 2rem;
+
+      svg {
+        margin: 0;
+      }
+    }
+
+    @media (max-width: $mobile-width) {
+
+      svg,
+      img {
+        position: absolute;
+        width: auto;
+        max-width: 14.4rem;
+        object-fit: contain;
+        top: 2.2rem;
+        right: 0;
+        margin-right: 0;
+
+      }
+    }
+  }
+
+  &__text-hidden {
+    display: none;
+
+  }
+
+  &__logo-bottom {
+    display: flex;
+    max-width: 13rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__boboli {
+    padding-bottom: 22.5rem;
+
+    @media (max-width: $mobile-width) {
+      padding-bottom: 0.6rem;
+    }
+
+    .brand__shadow {
+      left: 0;
+      top: -7rem;
+      margin-left: 1rem;
+      width: 32.8rem;
+      height: 15.2rem;
+
+      svg {
+        width: 31.4rem;
+        height: 8.8rem;
+
+      }
+    }
+
+    .brand__img {
+      border-radius: 8rem 8rem 8rem 1rem;
+
+      @media (max-width: $mobile-width) {
+
+        border-radius: 8.6rem 8.6rem 8.6rem 1rem;
+      }
+    }
+
+    .title__head {
+      // position: relative;
+      display: inline-flex;
+
+      background-image: url("data:image/svg+xml,%3Csvg width='44' height='37' viewBox='0 0 44 37' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='19.4766' cy='18.5' r='18.5' fill='%23DA251E'/%3E%3Ccircle cx='37.1359' cy='31.1136' r='5.88636' fill='%235BBDB5'/%3E%3C/svg%3E%0A");
+      background-repeat: no-repeat;
+      background-position: center right;
+      background-size: 4.5rem 4.5rem;
+
+      padding-right: 5.7rem;
+
+      @media (max-width: $mobile-width) {
+        padding: 3.9rem 13.8rem 1rem 0;
+        margin-top: -3.2rem;
+        background-size: 8rem 8rem;
+
+        background-image: url("data:image/svg+xml,%3Csvg width='43' height='37' viewBox='0 0 43 37' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='18.5' cy='18.5' r='18.5' fill='%23DA251E'/%3E%3Ccircle cx='36.1591' cy='31.1137' r='5.88636' fill='%235BBDB5'/%3E%3C/svg%3E%0A");
+      }
+    }
+
+  }
+
+  &__dpam {
+    padding-bottom: 0;
+
+    .brand__img {
+      position: relative;
+      max-height: 55.2rem;
+      align-items: center;
+      border-radius: 8rem 1rem 8rem 0;
+
+      @media (max-width: $mobile-width) {
+        border-radius: 8.6rem 1rem;
+      }
+
+      img {
+        height: 55.2rem;
+        object-position: 0;
+
+
+        &:last-child {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background: #FFFFFF;
+          width: 10.1rem;
+          height: 10.1rem;
+          padding: 2.6rem 1.6rem;
+          object-position: 0rem;
+
+          @media (max-width: $mobile-width) {
+            display: none;
+          }
+
+        }
+      }
+    }
+
+    .brand__shadow {
+      right: 0;
+    }
+
+    .title {
+      // margin-top: 12rem;
+      margin-bottom: 3rem;
+
+      @media (max-width: $mobile-width) {
+        margin-bottom: 3.6rem;
+
+        &__sub {
+          font-weight: bold;
+          font-size: 3.6rem;
+          line-height: 4.6rem;
+        }
+      }
+
+    }
+
+    p {
+      width: 66.1rem;
+
+      @media (max-width: $mobile-width) {
+        width: 68.2rem;
+        margin-bottom: 2.5rem;
+      }
+
+    }
+
+    .brand__dpam-logo-mob {
+      display: none;
+
+      @media (max-width: $mobile-width) {
+        display: block;
+        width: 9.428rem;
+        height: 6.696rem;
+        position: absolute;
+        right: 2.2rem;
+        top: 5.7rem;
+      }
+    }
+  }
+
+  &__brums {
+
+    p {
+      width: 100%;
+    }
+
+    .brand__shadow {
+      top: -7rem;
+      left: 1rem;
+
+      width: 30.6rem;
+      height: 8.8rem;
+    }
+
+    .title {
+      // margin-top: 11.6rem;
+
+      @media (max-width: $mobile-width) {
+        margin-top: 9.8rem;
+      }
+
+      &__head {
+        @media (max-width: $mobile-width) {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 7.8rem;
+          line-height: 120%;
+        }
+      }
+    }
+
+    .brand__logo-bottom {
+      margin-top: 3.9rem;
+
+      @media (max-width: $mobile-width) {
+        img {
+          top: 18.5rem;
+          right: 1.2rem;
+          max-width: 15rem;
+        }
+      }
+    }
+
+    .brand__img {
+      img {
+        object-position: 0;
+      }
+    }
+
+    .brand__wrapper {
+      // padding-bottom: ;
+    }
+  }
+
+
+  &__container {
+
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    margin-bottom: 2.1rem;
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  &__wrapper {
+    padding: 3.1rem 0;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: $mobile-width) {
+      padding: 4.5rem 0rem 4.2rem;
+    }
+  }
+
+  &__nav-btn {
+    display: none;
+    @media (max-width: $mobile-width) {
+
+      display: flex;
+      margin-left: auto;
+      padding: 1rem;
+      background: inherit;
+      border: none;
+
+      svg {
+        width: 6.4rem;
+        height: 4.8rem;
+        
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+.slider {
+  overflow: hidden;
+
+  @media (max-width: $mobile-width) {}
+
+  &__bottom {
+    position: relative;
+
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__btn {
+    position: absolute;
+    right: -14.8rem;
+    bottom: 1.9rem;
+    z-index: 1;
+    display: flex;
+    width: 16rem;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: $mobile-width) {
+      transform: translate(-50%, 0);
+      bottom: 12.6rem;
+      left: 50%;
+      width: 16rem;
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+
+    width: 7.3rem;
+    height: 7.3rem;
+    display: flex;
+
+    svg {
+      width: 7.3rem;
+      height: 7.3rem;
+    }
+
+    @media (max-width: $mobile-width) {
+      width: 9.8rem;
+      height: 9.8rem;
+      padding: 1rem;
+    }
+  }
+
+  &__pagination {
+
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 88.1rem;
+    height: 9rem;
+    background: #191C20;
+
+    display: flex;
+    align-items: center;
+
+    padding: 3.4rem 5.5rem;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: $white;
+
+    @media (max-width: $mobile-width) {
+      width: 100%;
+      bottom: 0;
+      font-size: 3.0rem;
+      font-style: normal;
+
+      line-height: 3.8rem;
+      height: 10.7rem;
+      padding: 3.2rem 3.6rem;
+    }
+  }
+
+  &__pagination-count {
+    display: flex;
+    font-weight: 500;
+  }
+
+  &__pagination-head {
+    display: flex;
+    margin-left: 2rem;
+
+    @media (max-width: $mobile-width) {
+      margin-left: 2rem;
+    }
+  }
+
+  &__border {
+    width: 35.1rem;
+    background: #393C41;
+    height: 0.4rem;
+    display: flex;
+    position: relative;
+    margin-left: auto;
+
+    @media (max-width: $mobile-width) {
+      width: 20%;
+    }
+  }
+
+  &__border-bold {
+    transition: 0.3s;
+    position: absolute;
+    width: 10%;
+    height: 0.4rem;
+    background: #FFFFFF;
+    left: 0;
+  }
+
+
+  &__fraction {
+    margin-left: 4rem;
+
+    @media (max-width: $mobile-width) {
+      font-weight: 500;
+      margin-left: 2rem;
+    }
+
+    &>span {
+      margin-right: 0.9rem;
+    }
+  }
+
+  &__ico {
+    margin-left: 3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+
+    @media (max-width: $mobile-width) {
+      margin-left: 1.9rem;
+      width: 3rem;
+      height: 3rem;
+      align-items: center;
+      display: flex;
+    }
+  }
+
+}
+
+@media (max-width: $mobile-width) {}

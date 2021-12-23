@@ -1,0 +1,39 @@
+.link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.0rem;
+  color: $sub-title;
+  padding: 2.1rem 3.0rem 2.0rem 3.0rem;
+  border: 1px solid $sub-title;
+  border-radius: 999px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  @media (max-width: $mobile-width) {
+    font-weight: 500;
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    padding: 3rem 2rem 3rem 6rem;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    background-image: url("data:image/svg+xml,%3Csvg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L9 9L1 17' stroke='%23DA251E' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: 1rem 1.8rem;
+    width: 2.5rem;
+    height: 3.5rem;
+    right: 1.5rem;
+    display: flex;
+    @media (max-width: $mobile-width) {
+      background-size: 2rem 3rem;
+      width: 4.5rem;
+      height: 5.5rem;
+      
+    }
+  }
+}

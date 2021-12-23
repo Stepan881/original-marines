@@ -1,0 +1,123 @@
+.mission {
+
+  &__wrapper {
+    padding: 9rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: $mobile-width) {
+      padding: 12.4rem 0;
+      flex-direction: column-reverse;
+
+    }
+
+  }
+
+  &__block {
+    position: relative;
+    width: 52.1rem;
+
+    .br {
+      @media (max-width: $mobile-width) {
+        display: none;
+      }
+    }
+
+    @media (max-width: $mobile-width) {
+      img {
+        margin-top: 16rem;
+      }
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 1.8rem;
+      line-height: 2.3rem;
+
+      &:not(:last-child) {
+        margin-bottom: 2.3rem;
+
+
+        @media (max-width: $mobile-width) {
+          margin-bottom: 3.9rem;
+        }
+
+      }
+
+      @media (max-width: $mobile-width) {
+        font-weight: 300;
+        font-size: 3.0rem;
+        line-height: 3.8rem;
+
+      }
+    }
+
+    @media (max-width: $mobile-width) {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    &:last-child {
+      padding-left: 1.5rem;
+      width: 50%;
+      max-width: 100%;
+
+      @media (max-width: $mobile-width) {
+
+        padding-left: 0;
+        width: 99.6%;
+      }
+    }
+
+
+    .title {
+      margin-top: 7.1rem;
+
+      padding-top: 0;
+      width: 52.1rem;
+
+      @media (max-width: $mobile-width) {
+        width: 63.1rem;
+      }
+
+      &__sub {
+        font-size: 1.8rem;
+
+
+        @media (max-width: $mobile-width) {
+          font-weight: bold;
+          font-size: 3.0rem;
+          line-height: 150%;
+        }
+      }
+
+      &__head {
+        margin-bottom: 3rem;
+
+        @media (max-width: $mobile-width) {
+          margin: 0;
+        }
+      }
+
+      @media (max-width: $mobile-width) {
+        // width: 100px;
+        padding-bottom: 4rem;
+        margin-top: 0rem;
+      }
+    }
+  }
+
+  .border {
+    position: absolute;
+    bottom: 0px;
+    width: 28.6rem;
+    left: 100%;
+
+    @media (max-width: $mobile-width) {
+      top: 0;
+      left: 0;
+      width: 100%;
+      margin: 8rem 0 7.6rem 0;
+    }
+  }
+}

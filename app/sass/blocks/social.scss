@@ -1,0 +1,124 @@
+.social {
+  margin-top: 5.5rem;
+
+  @media (max-width: $mobile-width) {
+    margin-top: 4rem;
+  }
+
+  ul {
+    display: flex;
+
+    @media (max-width: $mobile-width) {
+      // justify-content: space-between;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+  }
+
+  li {
+    margin-right: 3rem;
+
+    @media (max-width: $mobile-width) {
+      margin: 0;
+      
+      &:not(:last-child) {
+        margin-right: 3rem;
+      }
+    }
+  }
+
+  svg {
+    width: 4.9rem;
+    height: 4.9rem;
+
+    @media (max-width: $mobile-width) {
+      width: 8.278rem;
+      height: 8.278rem;
+    }
+
+
+  }
+
+  &--store {
+    display: flex;
+    margin-top: 6.1rem;
+    margin-bottom: 5.5rem;
+
+    @media (max-width: $mobile-width) {
+      margin-top: 8.1rem;
+  margin-bottom: 3.5rem;
+    }
+
+
+    li {
+      &:nth-child(1) svg {
+        width: 4.2rem;
+        height: 4.2rem;
+
+        @media (max-width: $mobile-width) {
+          width: 3.7rem;
+          height: 3.7rem;
+        }
+      }
+
+      &:nth-child(2) svg {
+        width: 4.2rem;
+        height: 4.2rem;
+
+        @media (max-width: $mobile-width) {
+          width: 3.312rem;
+          height: 3.312rem;
+        }
+      }
+
+      &:nth-child(3) svg {
+        width: 4.2rem;
+        height: 4.2rem;
+
+        @media (max-width: $mobile-width) {
+          width: 3.786rem;
+          height: 3.788rem;
+        }
+      }
+
+      &:nth-child(4) svg {
+        width: 4.2rem;
+        height: 4.2rem;
+
+        @media (max-width: $mobile-width) {
+          width: 3.312rem;
+          height: 3.312rem;
+        }
+      }
+
+      &:nth-child(5) svg {
+        width: 4.2rem;
+        height: 4.2rem;
+
+        @media (max-width: $mobile-width) {
+          width: 3.786rem;
+          height: 3.788rem;
+        }
+      }
+    }
+
+    @media (max-width: $mobile-width) {
+      flex-direction: column;
+      transform: translate(0, 0);
+      padding: 0;
+
+      a {
+        padding: 2rem 5.8rem;
+
+        display: inline-flex;
+
+
+      }
+
+      svg {
+        width: 1.8rem;
+        height: 1.8rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+.about {
+  &__wrapper {
+    padding: 21.6rem 0 9rem;
+    position: relative;
+    display: flex;
+
+    @media (max-width: $mobile-width) {
+      padding: 15.8rem 0 3.4rem;
+      flex-direction: column;
+    }
+  }
+
+  &__block {
+    width: 62%;
+    @media (max-width: $mobile-width) {
+      width: 100%;
+    }
+    &:last-child {
+      width: 38%;
+      padding-top: 6.5rem;
+      padding-left: 1.1rem;
+      @media (max-width: $mobile-width) {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 8.0rem;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+
+
+
+        @media (max-width: $mobile-width) {
+          font-size: 3.0rem;
+          line-height: 3.8rem;
+          width: 58.8rem;
+        }
+
+       
+        
+      }
+    }
+  }
+
+  &__border {
+    max-width: 37.3rem;
+    width: 100%;
+    @media (max-width: $mobile-width) {
+      max-width: 100%;
+    }
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 120%;
+    padding-bottom: 3.2rem;
+    @media (max-width: $mobile-width) {
+      padding-bottom: 4.0rem;
+      
+      font-size: 3.6rem;
+    }
+  }
+
+  .title {
+    max-width: 70rem;
+    width: 100%;
+    padding-bottom: 6rem;
+
+    &__head {
+      font-feature-settings: 'cpsp' on, 'zero' on, 'ordn' on, 'salt' on, 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on, 'mgrk' on, 'numr' on, 'dnom' on;
+
+      @media (max-width: $mobile-width) {
+        width: 55rem;
+      }
+      
+    }
+    @media (max-width: $mobile-width) {
+      padding-bottom: 4rem;
+      max-width: 70%;
+    }
+  }
+  .social {
+    
+  }
+}

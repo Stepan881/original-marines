@@ -1,0 +1,95 @@
+// 100 – Thin || Hairline
+// 200 – Extra Light || Ultra Light || Thin
+// 300 – Light
+// 400 – Normal || Regular
+// 500 – Medium
+// 600 – Semi Bold || Demi Bold
+// 700 – Bold
+// 800 – Extra Bold || Ultra Bold || Heavy
+// 900 – Black || Heavy
+
+@font-face  {
+  font-family: "Euclid";
+  src: local('Euclid Circular Medium'), local('Euclid-Circular-Medium'),
+       url("../fonts/EuclidCircularA-Medium.woff") format("woff"),
+       url("../fonts/EuclidCircularA-Medium.woff2") format("woff2"),
+       url('../fonts/EuclidCircularA-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "Euclid";
+  src: local('Euclid Circular Light'), local('Euclid-Circular-Light'),
+       url("../fonts/EuclidCircularA-Light.woff") format("woff"),
+       url("../fonts/EuclidCircularA-Light.woff2") format("woff2"),
+       url('../fonts/EuclidCircularA-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+@font-face  {
+  font-family: "Euclid";
+  src: local('Euclid Circular Regular'), local('Euclid-Circular-Regular'),
+       url("../fonts/EuclidCircularA-Regular.woff") format("woff"),
+       url("../fonts/EuclidCircularA-Regular.woff2") format("woff2"),
+       url('../fonts/EuclidCircularA-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face  {
+  font-family: "Euclid";
+  src: local('Euclid Circular Bold'), local('Euclid-Circular-Bold'),
+       url("../fonts/EuclidCircularA-Bold.woff") format("woff"),
+       url("../fonts/EuclidCircularA-Bold.woff2") format("woff2"),
+       url('../fonts/EuclidCircularA-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'Circe';
+	src: url('Circe-Regular.eot');
+	src: local('Circe'), local('Circe-Regular'),
+		url('../fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Circe-Regular.woff') format('woff'),
+		url('../fonts/Circe-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+@font-face  {
+  font-family: "Futura-PT";
+  font-display: swap;
+  src: url("../fonts/FuturaPTCond-Bold.woff") format("woff"),
+       url("../fonts/FuturaPTCond-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "Futura-PT";
+  font-display: swap;
+  src: url("../fonts/FuturaPTCond-ExtraBold.woff") format("woff"),
+       url("../fonts/FuturaPTCond-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face  {
+  font-family: "Futura-PT";
+  font-display: swap;
+  src: url("../fonts/FuturaPTCond-Book.woff") format("woff"),
+       url("../fonts/FuturaPTCond-Book.woff2") format("woff2");
+  font-weight: 450;
+  font-style: normal;
+}

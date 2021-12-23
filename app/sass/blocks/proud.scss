@@ -1,0 +1,86 @@
+.proud {
+  overflow: hidden;
+  .title {
+    max-width: 60%;
+    margin: 0 auto;
+
+    @media (max-width: $mobile-width) {
+      max-width: 100%;
+      text-align: left;
+    }
+
+    @media (max-width: $mobile-width) {
+      &__head {
+        width: 63rem;
+      }
+    }
+  }
+
+  &__wrapper {
+
+    padding-top: 8.8rem;
+
+    @media (max-width: $mobile-width) {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    padding: 6.0rem 0;
+
+    width: calc(100%);
+    justify-content: center;
+
+    padding-bottom: 12.0rem;
+
+    @media (max-width: $mobile-width) {
+      padding-top: 0;
+      padding-bottom: 4rem;
+      justify-content: flex-start;
+      // overflow: hidden;
+    }
+  }
+
+  &__card {
+    background: $white;
+    padding: 3.5rem 2.3rem 2.9rem 2.9rem;
+    min-height: 22.6rem;
+    min-width: 25.6rem;
+    width: 25.6rem;
+    box-shadow: 0px 10.0rem 8.0rem rgba(0, 0, 0, 0.07);
+    margin: 1.5rem;
+
+    @media (max-width: $mobile-width) {
+      min-width: 45.2rem;
+      height: 40rem;
+      padding: 3.7rem 3rem 3.7rem 5.5rem;
+    }
+  }
+
+  &__ico {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    @media (max-width: $mobile-width) {
+      width: 5.0rem;
+      height: 4.8rem;
+    }
+  }
+
+  p {
+    margin-top: 2.7rem;
+    color: $black;
+    padding-bottom: 0;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+
+    @media (max-width: $mobile-width) {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-top: 4.2rem;
+    }
+  }
+}
