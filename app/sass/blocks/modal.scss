@@ -57,9 +57,9 @@
 
     @media (max-width: $mobile-width) {
       position: absolute;
-      top: 1rem;
+      // top: 1rem;
       right: 5rem;
-      
+      top: -8rem;
     }
 
     svg {
