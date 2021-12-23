@@ -2104,7 +2104,9 @@ input[type="number"] {
   margin-bottom: 1.5rem; }
   .brand__img img {
     -o-object-position: 0 -1.1rem;
-       object-position: 0 -1.1rem; }
+       object-position: 0 -1.1rem;
+    -o-object-position: center;
+       object-position: center; }
   @media (max-width: 48em) {
     .brand__img {
       -webkit-filter: drop-shadow(0px 54px 44px rgba(0, 0, 0, 0.07));
@@ -2201,7 +2203,7 @@ input[type="number"] {
         padding: 3.9rem 13.8rem 1rem 0;
         margin-top: -3.2rem;
         background-size: 8rem 8rem;
-        background-image: url("data:image/svg+xml,%3Csvg width='43' height='37' viewBox='0 0 43 37' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='18.5' cy='18.5' r='18.5' fill='%23DA251E'/%3E%3Ccircle cx='36.1591' cy='31.1137' r='5.88636' fill='%235BBDB5'/%3E%3C/svg%3E%0A"); } }
+        background-image: none; } }
 
 .brand__dpam {
   padding-bottom: 0; }
@@ -2291,6 +2293,10 @@ input[type="number"] {
 .brand__brums .brand__img img {
   -o-object-position: 0;
      object-position: 0; }
+  @media (max-width: 48em) {
+    .brand__brums .brand__img img {
+      -o-object-position: center;
+         object-position: center; } }
 
 .brand__container {
   overflow: hidden;
